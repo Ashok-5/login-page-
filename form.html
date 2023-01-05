@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head style="border-color:gold">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <style>
+
+            *{
+                font-family:'Times New Roman', Times, serif;
+            }
+            body{
+                background-image: linear-gradient(to right,rgb(150,150,150),rgb(100,100,100),rgb(0,0,0),rgb(100,100,100),rgb(150,150,150));
+                border-color: rgb(17, 0, 255);
+                height: 100px;
+            }
+
+            *{
+            /* border: 1px solid red;       */
+        }
+            .frm{
+            background-color: rgb(0, 225, 255);
+            position:absolute;
+            left: 35%;
+            right: 35%;
+            top: 15%;
+            /* width: 100%; */
+            bottom: 15%;
+            border-radius: 8%;
+            opacity: 0.1;
+            transition-duration: 2s;    
+        }
+            .dv{
+            height: 100%;
+        }
+            .frm:hover{
+            opacity: 1;     
+        }
+            .fm{
+            /* position: absolute;
+            display: inline-block;
+            inset:15% 15%;
+            border:none ;
+            padding:20% 15% 20% 15% ; */
+            position: relative;
+            /* left: 20px; */
+            width: 100%;
+            bottom: 0%;
+            /* top: 50px; */
+            /* height: 100px; */
+            margin: 0;
+            padding: 0;    
+        }
+            #lk{
+            border-top: 20 px solid transparent;
+            /* width:90px; */
+            border: none;
+            width: 96%;
+            padding:5px 5px ;
+            font-size:x-large;
+            direction:rtl;   
+        }
+        #lk:active{
+            border-left;:2px solid rgb(0, 140, 255)0, 255, 255) ;
+        }
+            label{
+            font-size: 20px;
+            position: relative;
+            left: 40%;
+            /* font-size: medium; */
+            /* justify-content: center; */
+        }
+
+        input , label{
+            border:none;
+            outline: none;
+            background-color: inherit;
+        } 
+        .smt{
+            text-align: center;
+            border: none;
+            /* transform: translatex(320%); */
+            background-color: rgb(158, 37, 206);
+            /* display: flex; */
+            /* justify-content: center;  */
+            width: 80px;
+            position: relative;
+            left: 35%;
+            height:50px;
+            border-radius: 5%;
+            font: size 16.5px;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="h1">
+        <div class="frm">
+        <h1 style="text-align: center; border-top-left-radius:9px; border-top-right-radius: 9px;">Login Form</h1>
+        <form class="fm" name="form" style="border-color: rgb(255, 255, 255);">
+            <label >Mail Id</label> <br><br>
+            <input  id="lk" type="text" ><br><br>
+            <label >password</label><br><br>
+            <input id="lk" type="password" ><br><br>
+            <input type="submit" class="smt" value="hand it over"><br><br>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
